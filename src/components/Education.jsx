@@ -8,8 +8,8 @@ const Education = () => {
     <div>
       <Navbar />
       <section
-        className="relative w-full h-screen bg-inherit bg-center min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white py-20 px-4 overflow-hidden z-40"
-        style={{ backgroundImage: `url('${BackgroundImg}')` }}
+        // className="relative w-full h-screen bg-inherit bg-center min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white py-20 px-4 overflow-hidden z-40"
+        // style={{ backgroundImage: `url('${BackgroundImg}')` }}
       >
         <div className="container mx-auto max-w-6xl">
           {/* Header */}
@@ -30,16 +30,16 @@ const Education = () => {
             </h3>
             <div className="space-y-8">
               {/* Education 1 */}
-              <div className="bg-gray-800 p-6 sm:p-8 md:p-10 rounded-lg shadow-xl transform hover:scale-105 transition duration-500">
+              <div className="bg-gray-400 p-6 sm:p-8 md:p-10 rounded-lg shadow-xl transform hover:scale-105 transition duration-500">
                 <h4 className="text-xl sm:text-2xl font-semibold">
                   Master of Philosophy in Communication (Development
                   Communication)
                 </h4>
-                <p className="text-indigo-400">
+                <p className="text-indigo-800">
                   University of Education, Winneba
                 </p>
-                <p className="text-gray-400">Jan 2022 – Dec 2023</p>
-                <p className="mt-4 text-gray-300">
+                <p className="text-gray-100">Jan 2022 – Dec 2023</p>
+                <p className="mt-4 text-gray-100">
                   Focused on Development Communication, equipping myself with
                   skills to influence change through strategic communication
                   interventions.
@@ -47,28 +47,28 @@ const Education = () => {
               </div>
 
               {/* Education 2 */}
-              <div className="bg-gray-800 p-6 sm:p-8 md:p-10 rounded-lg shadow-xl transform hover:scale-105 transition duration-500">
+              <div className="bg-gray-400 p-6 sm:p-8 md:p-10 rounded-lg shadow-xl transform hover:scale-105 transition duration-500">
                 <h4 className="text-xl sm:text-2xl font-semibold">
                   Exchange Program
                 </h4>
-                <p className="text-indigo-400">
+                <p className="text-indigo-800">
                   University of Jyvaskyla, Finland
                 </p>
-                <p className="text-gray-400">Aug 2023 – Dec 2023</p>
-                <p className="mt-4 text-gray-300">
+                <p className="text-gray-100">Aug 2023 – Dec 2023</p>
+                <p className="mt-4 text-gray-100">
                   Participated in an exchange program focused on international
                   perspectives in education and communication.
                 </p>
               </div>
 
               {/* Education 3 */}
-              <div className="bg-gray-800 p-6 sm:p-8 md:p-10 rounded-lg shadow-xl transform hover:scale-105 transition duration-500">
+              <div className="bg-gray-400 p-6 sm:p-8 md:p-10 rounded-lg shadow-xl transform hover:scale-105 transition duration-500">
                 <h4 className="text-xl sm:text-2xl font-semibold">
                   Bachelor of Arts in Communication (Journalism)
                 </h4>
-                <p className="text-indigo-400">Ghana Institute of Journalism</p>
-                <p className="text-gray-400">Sep 2015 – Jul 2019</p>
-                <p className="mt-4 text-gray-300">
+                <p className="text-indigo-800">Ghana Institute of Journalism</p>
+                <p className="text-gray-100">Sep 2015 – Jul 2019</p>
+                <p className="mt-4 text-gray-100">
                   Developed journalistic skills in writing, reporting, and
                   multimedia production, with an emphasis on investigative
                   journalism.
@@ -84,7 +84,7 @@ const Education = () => {
             </h3>
             <div className="space-y-8">
               {/* Certification 1 */}
-              <div className="bg-indigo-600 p-6 sm:p-8 md:p-10 rounded-lg shadow-xl transform hover:scale-105 transition duration-500">
+              <div className="bg-indigo-400 p-6 sm:p-8 md:p-10 rounded-lg shadow-xl transform hover:scale-105 transition duration-500">
                 <h4 className="text-xl sm:text-2xl font-semibold">
                   Entrepreneurship & Innovation: Web Development Job Simulation
                 </h4>
@@ -97,7 +97,7 @@ const Education = () => {
               </div>
 
               {/* Certification 2 */}
-              <div className="bg-indigo-600 p-6 sm:p-8 md:p-10 rounded-lg shadow-xl transform hover:scale-105 transition duration-500">
+              <div className="bg-indigo-400 p-6 sm:p-8 md:p-10 rounded-lg shadow-xl transform hover:scale-105 transition duration-500">
                 <h4 className="text-xl sm:text-2xl font-semibold">
                   Digital Marketing Certificate of Excellence
                 </h4>
@@ -109,7 +109,7 @@ const Education = () => {
               </div>
 
               {/* Certification 3 */}
-              <div className="bg-indigo-600 p-6 sm:p-8 md:p-10 rounded-lg shadow-xl transform hover:scale-105 transition duration-500">
+              <div className="bg-indigo-400 p-6 sm:p-8 md:p-10 rounded-lg shadow-xl transform hover:scale-105 transition duration-500">
                 <h4 className="text-xl sm:text-2xl font-semibold">
                   International Train the Trainers
                 </h4>
