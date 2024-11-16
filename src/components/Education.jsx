@@ -1,14 +1,15 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import BackgroundImg from "../pages/images/book.jpg";
 
 const Education = () => {
   return (
     <div>
       <Navbar />
       <section
-        id="education"
-        className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white py-20 px-4 relative overflow-hidden"
+        className="relative w-full h-screen bg-inherit bg-center min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white py-20 px-4 overflow-hidden z-40"
+        style={{ backgroundImage: `url('${BackgroundImg}')` }}
       >
         <div className="container mx-auto max-w-6xl">
           {/* Header */}

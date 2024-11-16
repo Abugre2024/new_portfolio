@@ -27,10 +27,10 @@ const Navbar = () => {
         <div className={`flex-col md:flex-row md:flex space-x-4 ${isOpen ? 'flex' : 'hidden'} md:flex`}>
           <Link to= "/" className="hover:text-blue-400">Home</Link>
           <Link to="/projects" className="hover:text-blue-400">Projects</Link>
-          <a href="/skills" className="hover:text-blue-400">Skills</a>
-          <a href="/experience" className="hover:text-blue-400">Experience</a>
-          <a href="/education" className="hover:text-blue-400">Education</a>
-          <a href="/contact" className="hover:text-blue-400">Contact</a>
+          <Link to="/skills" className="hover:text-blue-400">Skills</Link>
+          <Link to="/experience" className="hover:text-blue-400">Experience</Link>
+          <Link to="/education" className="hover:text-blue-400">Education</Link>
+          <Link to="/contact" className="hover:text-blue-400">Contact</Link>
         </div>
       </div>
     </nav>
