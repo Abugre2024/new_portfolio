@@ -18,8 +18,8 @@ const Projects = () => {
             <h3 className="text-2xl font-semibold text-blue-600 text-center mb-6">
               Development Projects (Web & Code-based)
             </h3>
-
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div>
               {/* Project 1: Library App */}
               <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
                 <h4 className="text-2xl font-bold text-gray-700 mb-4 text-center">
@@ -45,14 +45,82 @@ const Projects = () => {
                   </li>
                 </ul>
                 <a
-                  href="https://github.com/Abugre2024"
+                  href="https://trailblaze-library.netlify.app/"
                   className="text-blue-600 hover:underline font-bold"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View on GitHub
+                  View on Neftlify
                 </a>
               </div>
+            </div>
+            <div className="">
+              {/* Project 2: Advert App */}
+              <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
+                <h4 className="text-2xl font-bold text-gray-700 mb-4 text-center">
+                  Advert App
+                </h4>
+                <p className="text-gray-600 mb-4">
+                  A user-friendly Advert app with navigation, search, and
+                  animated features, allowing users/vendors to explore and post adverts
+                </p>
+                <ul className="list-disc list-inside mb-4 text-gray-600">
+                  <li>
+                    <strong>Tech Stack:</strong> React, Tailwind CSS, JavaScript
+                  </li>
+                  <li>
+                    <strong>Key Features:</strong> Responsive design, Search
+                    functionality, Animation with typewriter effect
+                  </li>
+                  <li>
+                    <strong>Challenges & Solutions:</strong> Tackled responsive
+                    design issues and ensured fast load times with lazy loading
+                    and efficient use of Tailwind CSS utilities.
+                  </li>
+                </ul>
+                <a
+                  href="https://advert-app.netlify.app//"
+                  className="text-blue-600 hover:underline font-bold"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on Netflify
+                </a>
+              </div>
+            </div>
+            <div className="">
+              {/* Project 3: School Management App */}
+              <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
+                <h4 className="text-2xl font-bold text-gray-700 mb-4 text-center">
+                  School Management System App
+                </h4>
+                <p className="text-gray-600 mb-4">
+                  A user-friendly School management system app with navigation, and search, features, allowing parents, students and teachers to stay connected in real-time with the focus on helping the student grow beyond just grades. 
+                </p>
+                <ul className="list-disc list-inside mb-4 text-gray-600">
+                  <li>
+                    <strong>Tech Stack:</strong> React, Tailwind CSS, JavaScript
+                  </li>
+                  <li>
+                    <strong>Key Features:</strong> Responsive design, Search
+                    functionality, and push notification
+                  </li>
+                  <li>
+                    <strong>Challenges & Solutions:</strong> Tackled responsive
+                    design issues and ensured fast load times with lazy loading
+                    and efficient use of Tailwind CSS utilities.
+                  </li>
+                </ul>
+                <a
+                  href="https://edulink-app.netlify.app/"
+                  className="text-blue-600 hover:underline font-bold"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on Netlify
+                </a>
+              </div>
+            </div>
             </div>
           </div>
 
